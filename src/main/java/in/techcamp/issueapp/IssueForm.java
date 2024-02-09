@@ -8,5 +8,4 @@ public class IssueForm {
     private String content;
     private String period;
     private char importance;
-
 }

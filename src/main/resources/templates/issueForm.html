@@ -5,6 +5,7 @@
     <title>イシュー新規作成</title>
 </head>
 <body>
+
 <form th:action="@{/issues}" th:method="post" th:object="${issueForm}">
     <input type="text" th:field="*{title}">
     <textarea th:field="*{content}"></textarea>
